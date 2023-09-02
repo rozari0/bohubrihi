@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" />
+    <title>An Expression Validation App Using JavaScript</title>
+</head>
+
+<body class="container">
+    <div class="container">
+        <form>
+            <label>Select a Item to Validate</label>
+            <select id="select">
+                <option selected="true" disabled="disabled">Choose Type</option>   
+                <option value="phone">Phone Number</option>
+                <option value="email">Email</option>
+                <option value="postcode">Post Code</option>
+            </select>
+            <label>Input:</label>
+            <input type="text" id="textInput" placeholder="Input to Validate" disabled>
+            <button type="submit">Submit</button>
+        </form>
+        <h4 id="result"></h4>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
